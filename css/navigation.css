@@ -1,0 +1,21 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20% 20px 20%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(100, 115, 125, 0.7);
+}
+
+.navigation a {
+    color: white;
+}
+
+.navigation a:hover {
+    transition: 2s all;
+    color: gray;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 35px;
+}
